@@ -23,7 +23,7 @@ var (
 	correctStyle = lipgloss.NewStyle().Foreground(lipgloss.Green)
 	wrongStyle   = lipgloss.NewStyle().Foreground(lipgloss.Red)
 	pendingStyle = lipgloss.NewStyle().Faint(true)
-	cursorStyle  = lipgloss.NewStyle().Reverse(true)
+	cursorStyle  = lipgloss.NewStyle().Underline(true).UnderlineColor(lipgloss.Yellow)
 	timerStyle   = lipgloss.NewStyle().Foreground(lipgloss.Yellow).Bold(true)
 	hintStyle    = lipgloss.NewStyle().Faint(true)
 	bigStyle     = lipgloss.NewStyle().Foreground(lipgloss.Yellow).Bold(true)
